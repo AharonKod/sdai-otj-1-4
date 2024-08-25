@@ -1,0 +1,261 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8; /* Increased line height for better readability */
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0; /* Increased padding for a more spacious header */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem; /* Increased font size for better visibility */
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    margin-top: 15px; /* Increased margin for more separation */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 25px; /* Increased margin for better spacing */
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem; /* Slightly increased font size */
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+}
+
+.hero-image {
+    text-align: center;
+    padding: 30px; /* Increased padding for more spacious layout */
+    background-color: #eaeaea;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+section {
+    padding: 30px; /* Increased padding for more spacious content */
+    background: #fff;
+    margin: 0 auto;
+    max-width: 1000px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px; /* Increased bottom margin for better separation */
+}
+
+h2 {
+    font-size: 2.8rem; /* Slightly increased font size for headers */
+    font-weight: bold;
+    border-bottom: 3px solid #ffcc00;
+    padding-bottom: 15px; /* Increased padding for more spacing */
+    margin-bottom: 25px; /* Increased bottom margin for better spacing */
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 2rem; /* Slightly increased font size for subheaders */
+    font-weight: semi-bold;
+    color: #666;
+    margin-top: 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px; /* Increased padding for better spacing */
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    font-size: 1.6rem; /* Increased font size for better visibility */
+    font-weight: normal;
+    color: #444;
+    margin-bottom: 10px; /* Increased bottom margin for better separation */
+    font-family: 'Arial', sans-serif;
+}
+
+.menu-item {
+    margin-bottom: 25px; /* Increased margin for better spacing between items */
+    padding-bottom: 15px; /* Increased padding for better separation */
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-item p {
+    margin: 0;
+    color: #555;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0; /* Increased padding for more spacious header */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem; /* Increased font size for better visibility */
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    margin-top: 15px; /* Increased margin for more separation */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 25px; /* Increased margin for better spacing */
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem; /* Slightly increased font size */
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+}
+
+.hero-image {
+    text-align: center;
+    padding: 30px; /* Increased padding for a more spacious layout */
+    background-color: #eaeaea;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+section {
+    padding: 30px; /* Increased padding for more spacious content */
+    background: #fff;
+    margin: 0 auto;
+    max-width: 1000px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px; /* Increased bottom margin for better separation */
+}
+
+h2 {
+    font-size: 2.8rem; /* Slightly increased font size for headers */
+    font-weight: bold;
+    border-bottom: 3px solid #ffcc00;
+    padding-bottom: 15px; /* Increased padding for more spacing */
+    margin-bottom: 25px; /* Increased bottom margin for better spacing */
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 2rem; /* Slightly increased font size for subheaders */
+    font-weight: semi-bold;
+    color: #666;
+    margin-top: 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px; /* Increased padding for better spacing */
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    font-size: 1.6rem; /* Increased font size for better visibility */
+    font-weight: normal;
+    color: #444;
+    margin-bottom: 10px; /* Increased bottom margin for better separation */
+    font-family: 'Arial', sans-serif;
+}
+
+.menu-item {
+    margin-bottom: 25px; /* Increased margin for better spacing between items */
+    padding-bottom: 15px; /* Increased padding for better separation */
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-item p {
+    margin: 0;
+    color: #555;
+    font-size: 1.1rem;
+    font-style: italic;
+    line-height: 1.4; /* Adjusted line height for better readability */
+    padding-left: 10px;
+    border-left: 2px solid #ffcc00;
+}
+
+.note {
+    font-style: italic;
+    color: #666;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.hours-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hours-details li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-family: 'Arial', sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+address ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+address li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-family: 'Arial', sans-serif;
+}
