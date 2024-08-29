@@ -304,3 +304,30 @@ address li {
     transform: scale(1.05); /* Slightly enlarge image on hover */
 }
 
+#about-us {
+    display: flex; /* Enable Flexbox */
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center-align text */
+    padding: 20px; /* Add padding around the section */
+    background-color: #fff; /* Optional: background color */
+}
+
+#about-us p {
+    margin-bottom: 20px; /* Space between paragraphs */
+    max-width: 800px; /* Limit the width of text blocks */
+}
+
+.image-wrapper {
+    display: flex; /* Enable Flexbox on the wrapper */
+    justify-content: center; /* Center the image horizontally */
+    width: 100%; /* Make wrapper full width */
+    margin-top: 20px; /* Space above the image */
+}
+
+.image-wrapper img {
+    max-width: 100%; /* Scale image down if necessary */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
